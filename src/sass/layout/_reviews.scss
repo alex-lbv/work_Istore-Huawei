@@ -195,9 +195,10 @@
     background-color: transparent;
     transition: box-shadow .3s, color .1s, background-color .3s, border .3s;
     border: 1px solid $second-black-color;
+    box-shadow: none;
 
     &:hover {
-      background-color: $main-dark-color;
+      background-color: $main-color;
       color: $white;
       border: 1px solid transparent;
       box-shadow: 0 3px 10px $main-color-opacity-2;

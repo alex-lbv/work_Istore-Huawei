@@ -402,7 +402,7 @@ select {
 
   &:hover {
     cursor: pointer;
-    background-color: $main-dark-color;
+    background-color: $main-color;
 
     &::after {
       background: url('../img/pic/ico/arrow-white.svg') no-repeat !important;

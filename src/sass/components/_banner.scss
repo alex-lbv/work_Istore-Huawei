@@ -7,7 +7,7 @@
 
   @include screen(xl) {
     text-align: center;
-    height: 390px;
+    height: 420px;
   }
 
   a {
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     font: 600 15px/22px FuturaPT;
     color: $second-black-color;
-    border-radius: 21px;
+    border-radius: 8px;
     background-color: $white;
     transition: box-shadow .3s, color .1s, background-color .3s, border .3s;
     border: 1px solid $main-black-color;
@@ -88,9 +88,9 @@
 
       @include screen(l) {
         top: 0;
-        right: -50px;
+        right: -20px;
         margin: auto;
-        width: 454px;
+        width: 274px;
       }
     }
   }
@@ -107,8 +107,8 @@
       }
 
       @include screen(l) {
-        right: 0;
-        width: 327px;
+        right: 60px;
+        width: 225px;
       }
     }
   }
