@@ -25,67 +25,31 @@
 
       &--phone {
         @include screen(l) {
-          background: url("../img/pic/bg/catalog-header.jpg") no-repeat, $black-2;
-          background-position: 650px;
-          background-size: contain;
-        }
-
-        .breadcrumbs.uk-subnav>*>:first-child {
-          @include screen(l) {
-            color: $white !important;
-          }
-        }
-
-        .breadcrumbs.uk-subnav>.uk-active>a:hover {
-          @include screen(l) {
-            color: $white-opacity-6 !important;
-          }
-        }
-
-        .title {
-          @include screen(l) {
-            color: $white;
-          }
+          background: url("../img/pic/bg/catalog-header.jpg") no-repeat, $white;
+          background-position: right;
+          background-size: 800px 102px;
         }
       }
 
       &--tv {
         @include screen(l) {
-          background: url("../img/pic/bg/catalog-header-2.jpg") no-repeat, $black-2;
+          background: url("../img/pic/bg/catalog-header-2.jpg") no-repeat, $white;
           background-size: cover;
-        }
-
-        .breadcrumbs.uk-subnav>*>:first-child {
-          @include screen(l) {
-            color: $white !important;
-          }
-        }
-
-        .breadcrumbs.uk-subnav>.uk-active>a:hover {
-          @include screen(l) {
-            color: $white-opacity-6 !important;
-          }
-        }
-
-        .title {
-          @include screen(l) {
-            color: $white;
-          }
         }
       }
 
       &--tablets {
         @include screen(l) {
-          background-image: url("../img/pic/bg/catalog-header-3.jpg");
-          background-size: 374px auto;
-          background-position: 700px 8px;
+          background: url("../img/pic/bg/catalog-header-3.jpg") no-repeat, $gray-35;
+          background-size: 950px 100%;
+          background-position: 300px;
         }
       }
 
       &--watch {
         @include screen(l) {
           background: url("../img/pic/bg/catalog-header-4.jpg") no-repeat, $black-2;
-          background-position: 700px;
+          background-position: 550px;
           background-size: contain;
         }
 
@@ -110,8 +74,8 @@
 
       &--accessories {
         @include screen(l) {
-          background-image: url("../img/pic/bg/catalog-header-5.jpg");
-          background-position: right;
+          background: url("../img/pic/bg/catalog-header-5.jpg") no-repeat, $white;
+          background-position: 600px;
           background-size: contain;
         }
       }
